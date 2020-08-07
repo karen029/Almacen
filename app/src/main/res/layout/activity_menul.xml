@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_acceso"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="16"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_weight="8"
+            android:text="Menú"
+            android:gravity="center"
+            android:textColor="@color/negro"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_gravity="top|end"
+            android:layout_margin="9dp"
+            android:layout_weight="3"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:gravity="center">
+       <Button
+           android:id="@+id/btnprod"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+           android:text="Productos"
+           android:textStyle="bold"
+           android:background="@drawable/botonredondo"
+           android:textColor="@color/blanco"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnprov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Proveedor"
+            android:textStyle="bold"
+            android:background="@drawable/botonredondo"
+            android:textColor="@color/blanco"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btncolab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Colaborador"
+            android:textStyle="bold"
+            android:background="@drawable/botonredondo"
+            android:textColor="@color/blanco"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnatras"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/boton_amarillo"
+        android:fontFamily="@font/montserrat"
+        android:text="ATRAS"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</LinearLayout >
+
